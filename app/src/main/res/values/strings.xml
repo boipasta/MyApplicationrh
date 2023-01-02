@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">BP.FIlM</string>
+    <string name="form_login">BP.FILM</string>
+    <string name="username">username</string>
+    <string name="password">password</string>
+    <string name="log_in">Log In</string>
+    <string name="register">Register</string>
+    <string name="registerr">Register</string>
+    <string name="simpan">Simpan Data</string>
+    <string name="txt">Login</string>
+    <string name="txtlogin">Login</string>
+    <string name="order">Order film</string>
+</resources>
