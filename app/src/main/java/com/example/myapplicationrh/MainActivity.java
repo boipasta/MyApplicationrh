@@ -34,7 +34,7 @@ public class MainActivity extends AppCompatActivity {
                     Myitem.poster[i]
             ));
         }
-        adapterRecyclerView= new AdapterRecyclerView(data);
+        adapterRecyclerView= new AdapterRecyclerView(this,data);
         recyclerView.setAdapter(adapterRecyclerView);
     }
 }
