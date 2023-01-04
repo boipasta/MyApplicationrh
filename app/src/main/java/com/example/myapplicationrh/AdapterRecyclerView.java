@@ -27,7 +27,7 @@ public class AdapterRecyclerView extends RecyclerView.Adapter<AdapterRecyclerVie
         TextView textTahun;
         ImageView textFilm;
         LinearLayout parenLayout;
-        Button btnorder;
+
 
 
         public ViewHolder(@NonNull View itemView) {
@@ -36,7 +36,7 @@ public class AdapterRecyclerView extends RecyclerView.Adapter<AdapterRecyclerVie
             textTahun=itemView.findViewById(R.id.tahun);
             textFilm=itemView.findViewById(R.id.image1);
             parenLayout=itemView.findViewById(R.id.parentlayout);
-            btnorder=itemView.findViewById(R.id.btnOrder);
+
 
         }
     }
