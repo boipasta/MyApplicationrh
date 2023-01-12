@@ -4,10 +4,11 @@
     <string name="username">username</string>
     <string name="password">password</string>
     <string name="log_in">Log In</string>
-    <string name="register">Register</string>
+    <string name="register">Belum punya akun? Register Disini</string>
     <string name="registerr">Register</string>
     <string name="simpan">Buat Akun</string>
     <string name="txt">Login</string>
     <string name="txtlogin">Login</string>
     <string name="order">Order film</string>
+    <string name="nokursi">No kursi</string>
 </resources>

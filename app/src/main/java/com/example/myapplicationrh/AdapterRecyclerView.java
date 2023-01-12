@@ -28,15 +28,12 @@ public class AdapterRecyclerView extends RecyclerView.Adapter<AdapterRecyclerVie
         ImageView textFilm;
         LinearLayout parenLayout;
 
-
-
         public ViewHolder(@NonNull View itemView) {
             super(itemView);
             textJudul=itemView.findViewById(R.id.judul);
             textTahun=itemView.findViewById(R.id.tahun);
             textFilm=itemView.findViewById(R.id.image1);
             parenLayout=itemView.findViewById(R.id.parentlayout);
-
 
         }
     }

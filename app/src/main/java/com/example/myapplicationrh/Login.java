@@ -15,7 +15,6 @@ import android.widget.Toast;
 public class Login extends AppCompatActivity {
     EditText username, password;
     Button btnLogin;
-
     TextView tvregister;
 
     @SuppressLint("MissingInflatedId")
@@ -27,6 +26,7 @@ public class Login extends AppCompatActivity {
         password = (EditText) findViewById(R.id.password);
         btnLogin = (Button)findViewById(R.id.btnLogin);
         tvregister =(TextView) findViewById(R.id.tv_register);
+
         btnLogin.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -38,7 +38,7 @@ public class Login extends AppCompatActivity {
                     //jika login berhasil
                     Toast.makeText(getApplicationContext(), "LOGIN SUKSES",
                             Toast.LENGTH_SHORT).show();
-                    Intent intent = new Intent(Login.this, MainActivity.class);
+                    Intent intent = new Intent(Login.this, Tablayout.class);
                     Login.this.startActivity(intent);
                     finish();
                 }else {
